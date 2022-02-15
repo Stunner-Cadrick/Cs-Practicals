@@ -9,9 +9,9 @@
 
 <table border="2">
 <tr>
-<th colorspan="2">COMPUTER SCIENCE</th> 
-<th colorspan="2">CHEMISTRY</th> 
-<th colorspan="2">PHYSICS</th>
+<th colspan="2">COMPUTER SCIENCE</th> 
+<th colspan="2">CHEMISTRY</th> 
+<th colspan="2">PHYSICS</th>
 </tr>
 <tr>
 <td>THEORY</td> 
