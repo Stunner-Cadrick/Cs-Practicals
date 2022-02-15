@@ -1,0 +1,29 @@
+#include<iostream.h>
+#include<conio.h>
+class person
+{
+public:
+virtual void print()
+{
+cout<<"\nName of person assigned through base object is BOB"<<endl;
+}
+};
+class student:public person
+{
+public:
+void print()
+{
+cout<<"\nName of the person assigned through derived classis Tom"<<endl;
+}
+};
+void main()
+{
+clrscr();
+person *p,x;
+p=&x;
+p->print();
+student y;
+p=&y;
+p->print();
+getch();
+}
